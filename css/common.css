@@ -1,0 +1,179 @@
+@charset "UTF-8";
+/*设置默认编码集*/
+
+/*css 初始化 */
+body, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dd, dt, p, button, input, img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 12px "Microsoft Yahei", "Simsun";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+ul, li {
+    list-style: none;
+}
+
+input, button {
+    border-style: none;
+}
+
+a {
+    color: #323232;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EE5219;
+}
+
+/*废物利用*/
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/*公共类*/
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/*天下色*/
+.col-red {
+    color: #EE5219 !important;
+}
+
+.w {
+    /*版心*/
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*顶部工具栏start*/
+
+.shortcut .logo {
+    text-align: center;
+    margin-left: 101px;
+    padding-top: 5px;
+}
+
+.shortcut .yys {
+    height: 54px;
+    padding-left: 10px;
+    position: relative;
+    z-index: 10;
+}
+
+.shortcut .yys a {
+    width: 960px;
+    height: 250px;
+    background-image: url(../img/582458f8143cfaac00b4b066J4SEDpOs.jpg);
+    z-index: 1;
+    position: absolute;
+    top: 54px;
+    left: -140px;
+}
+
+.shortcut ul {
+    /*margin-right: 101px;*/
+    margin-right: 130px;
+}
+
+.shortcut li {
+    float: left;
+    /*padding: 0 12px;*/
+
+}
+
+.shortcut li a {
+    display: inline-block;
+    height: 55px;
+    padding: 0 12px;
+    line-height: 55px;
+}
+
+.shortcut li a:hover {
+    height: 52px;
+    background: linear-gradient(rgba(0,0,0,.04), #fff);
+    border-bottom: 3px solid #A62014;
+}
+
+#gamelist {
+    position: relative;
+    padding-right: 23px;
+}
+
+#gamelist a {
+    color: #A62014;
+}
+
+#gamelist i {
+    display: inline-block;
+    border-color: #A62014 transparent transparent transparent;
+    border-style: solid;
+    border-width: 4px;
+    position: absolute;
+    right: 7px;
+    top: 25px;
+}
+
+#zyc_GoUp {
+    position: relative;
+    width: 100px;
+    height: 55px;
+}
+
+#zyc_GoUp a {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+#zyc_GoUp .one {
+    top: 0;
+    left: 0;
+}
+
+#zyc_GoUp .two {
+    top: 55px;
+    left: 0;
+}
+
+/*顶部工具栏end*/
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
